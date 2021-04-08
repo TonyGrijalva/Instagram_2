@@ -1,9 +1,37 @@
-﻿var div = document.getElementById("MainContent");
+﻿var divContainer = $("#MainContainer");
 
-var newSpan = $("<span></span>").text("Hello 2");
-$("#MainContent").append(newSpan);
+$("<span></span>").text("My Gram").css("margin-right", "10px").appendTo(divContainer);
+$("<button></button>").attr("id", "LogIn").text("Log In").appendTo(divContainer);
+$("<button></button>").attr("id", "SignUp").text("Sign Up").appendTo(divContainer);
 
+$("<br>").appendTo(divContainer);
+$("<br>").appendTo(divContainer);
 
-$("#MainContent").on("click", ".ButtonClass", ClickButton);
+$("<span></span>").text("Image 1").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("Image 2").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("Image 3").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("Image 4").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("Image 5").css("margin-right", "10px").appendTo(divContainer);
 
-$("<span>Test</span>").append(".ParaClass"); 
+$("<br>").appendTo(divContainer);
+$("<br>").appendTo(divContainer);
+
+$("<span></span>").text("About").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("Blog").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("Jobs").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("Help").css("margin-right", "10px").appendTo(divContainer);
+
+$("<br>").appendTo(divContainer);
+
+$("<span></span>").text("English").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("2021").css("margin-right", "10px").appendTo(divContainer);
+$("<span></span>").text("MyGram").css("margin-right", "10px").appendTo(divContainer);
+
+$("#LogIn").click(function () {
+    alert("You have logged in");
+});
+
+$("#SignUp").click(function () {
+    $("<span></span>").text("User").css("margin-right", "10px").appendTo(divContainer);
+    $("<span></span>").text("Password").css("margin-right", "10px").appendTo(divContainer);
+});
