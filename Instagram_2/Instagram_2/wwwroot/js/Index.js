@@ -51,7 +51,18 @@ $(document).ready(function () {
             var user = $("#User").val();
             var password = $("#Password").val();
 
-            alert("The user you submitted was: " + user + " and the password is: " + password);
+            $.when($.ajax({
+                url: "/home/register",
+                type: "POST",
+                data: {
+                    User: user,
+                    Password: password
+                }
+            })).then(function (data) {
+                if (data == true) {
+                    alert("The user was registered");
+                }
+            })
         }
     });
 });
