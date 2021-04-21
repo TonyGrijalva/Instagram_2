@@ -1,21 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<style>
-    button {
-        margin-right: 10px;
-    }
-</style>
-
-
-
-
-
-
-<div id="MainContainer" class="text-center">
-
-
+@section Scripts {
+    <script src="~/js/index.js"></script>
+}
+<div id="MainContainerDiv">
 </div>
 
 <form id="UserInputForm" name="UserInputForm">
@@ -25,22 +14,16 @@
                 <td>
                     <label for="User">User</label>
                 </td>
-
                 <td>
-                    <input type="text" id="User" name="User"/>
-
+                    <input type="text" id="User" name="User" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label for="Password">Password</label>
-
+                    <label>Password</label>
                 </td>
-
                 <td>
-                    <input type="password" id="Password" name="Password"/>
-
-
+                    <input type="password" id="Password" name="Password" />
                 </td>
             </tr>
             <tr>
@@ -50,10 +33,4 @@
             </tr>
         </tbody>
     </table>
-   
-    
 </form>
-
-@section Scripts {
-    <script src="~/js/Index.js"></script>
-}

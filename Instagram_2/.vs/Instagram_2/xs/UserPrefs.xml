@@ -1,27 +1,32 @@
 ﻿<Properties StartupConfiguration="{5FAC0BAA-BF47-4923-8A00-2D38970FB595}|Default">
   <MonoDevelop.Ide.ItemProperties.Instagram__2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Instagram_2/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Instagram_2/wwwroot/js/site.js">
     <Files>
       <File FileName="Instagram_2/Views/Shared/_Layout.cshtml" Line="40" Column="49" />
-      <File FileName="Instagram_2/Views/Home/Index.cshtml" Line="41" Column="72" />
-      <File FileName="Instagram_2/Startup.cs" Line="1" Column="1" />
-      <File FileName="Instagram_2/wwwroot/js/Index.js" Line="57" Column="4" />
-      <File FileName="Instagram_2/Controllers/HomeController.cs" Line="38" Column="1" />
+      <File FileName="Instagram_2/Views/Home/Index.cshtml" Line="36" Column="8" />
+      <File FileName="Instagram_2/Startup.cs" Line="58" Column="1" />
+      <File FileName="Instagram_2/wwwroot/js/Index.js" Line="24" Column="47" />
+      <File FileName="Instagram_2/Controllers/HomeController.cs" Line="199" Column="2" />
+      <File FileName="Instagram_2/Program.cs" Line="1" Column="1" />
+      <File FileName="Instagram_2/wwwroot/js/site.js" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Instagram_2" expanded="True">
             <Node name="Instagram_2" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="site.js" selected="True" />
+                </Node>
                 <Node name="lib" expanded="True" />
               </Node>
             </Node>
