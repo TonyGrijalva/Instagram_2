@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{5FAC0BAA-BF47-4923-8A00-2D38970FB595}|Default">
   <MonoDevelop.Ide.ItemProperties.Instagram__2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Instagram_2/wwwroot/js/site.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Instagram_2/Views/_ViewImports.cshtml">
     <Files>
-      <File FileName="Instagram_2/Views/Shared/_Layout.cshtml" Line="40" Column="49" />
-      <File FileName="Instagram_2/Views/Home/Index.cshtml" Line="36" Column="8" />
-      <File FileName="Instagram_2/Startup.cs" Line="58" Column="1" />
-      <File FileName="Instagram_2/wwwroot/js/Index.js" Line="24" Column="47" />
-      <File FileName="Instagram_2/Controllers/HomeController.cs" Line="199" Column="2" />
-      <File FileName="Instagram_2/Program.cs" Line="1" Column="1" />
-      <File FileName="Instagram_2/wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="Instagram_2/Views/Shared/_Layout.cshtml" Line="53" Column="8" />
+      <File FileName="Instagram_2/Models/ErrorViewModel.cs" Line="12" Column="1" />
+      <File FileName="Instagram_2/Controllers/Images.cs" Line="16" Column="2" />
+      <File FileName="Instagram_2/Controllers/User.cs" Line="14" Column="2" />
+      <File FileName="Instagram_2/Views/Home/Index.cshtml" Line="1" Column="3" />
+      <File FileName="Instagram_2/Views/Shared/Error.cshtml" Line="26" Column="1" />
+      <File FileName="Instagram_2/Views/_ViewImports.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,13 +21,16 @@
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
+                <Node name="_ViewImports.cshtml" selected="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
-                <Node name="js" expanded="True">
-                  <Node name="site.js" selected="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="jquery" expanded="True">
+                    <Node name="dist" expanded="True" />
+                  </Node>
                 </Node>
-                <Node name="lib" expanded="True" />
               </Node>
             </Node>
           </Node>

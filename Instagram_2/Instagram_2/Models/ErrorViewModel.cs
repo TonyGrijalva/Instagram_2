@@ -1,6 +1,6 @@
 using System;
 
-namespace Instagram_2.Models
+namespace Module_1.Models
 {
     public class ErrorViewModel
     {

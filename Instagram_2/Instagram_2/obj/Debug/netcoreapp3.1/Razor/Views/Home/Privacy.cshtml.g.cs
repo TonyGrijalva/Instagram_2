@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "/Users/marcosgrijalva/Desktop/Instagram_2/Instagram_2/Instagram_2/Views/_ViewImports.cshtml"
-using Instagram_2;
+using Module_1;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "/Users/marcosgrijalva/Desktop/Instagram_2/Instagram_2/Instagram_2/Views/_ViewImports.cshtml"
-using Instagram_2.Models;
+using Module_1.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0aa07997cef09066f0c784721652eef4b38cfb35", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1d84df1e981d1f8a5ce37bf7e8b8a15dee9243d1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"47876aec4d6c56dc3464bb18cdbbab06d325f618", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
