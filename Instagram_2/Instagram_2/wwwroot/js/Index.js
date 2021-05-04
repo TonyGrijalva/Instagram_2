@@ -18,13 +18,11 @@ $("<span></span>").attr("id", "2021").text("2021").appendTo("#MainContainerDiv")
 $("<span></span>").attr("id", "MyGram").text("MyGram").appendTo("#MainContainerDiv");
 $("</br>").appendTo("#MainContainerDiv");
 $("#SignupButton").click(function () {
-    $("#UserInputForm").show();
+    $("#RegisterDialog").dialog("open");
 });
 $("#LoginButton").click(function () {
     alert("You have successfully logged in!");
 });
-
-$("#UserInputForm").hide();
 
 $(document).ready(function () {
     $('form[name="UserInputForm"]').validate({
@@ -108,6 +106,11 @@ $(document).ready(function () {
                 }
             });
         });
+    });
+
+    $("#RegisterDialog").dialog({
+        autoOpen: false,
+        modal: true
     });
 
 });
