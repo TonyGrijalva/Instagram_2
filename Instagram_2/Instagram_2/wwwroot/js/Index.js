@@ -81,7 +81,7 @@ $(document).ready(function () {
             image = data[element];
 
             td = $("<td></td>");
-            $("<span></span>").text(image.imageAlt).css("margin-right", "10px")
+            $("<span></span>").addClass("ImageClass").text(image.imageAlt).css("margin-right", "10px")
                 .appendTo(td);
             tr.append(td);
 
@@ -91,12 +91,23 @@ $(document).ready(function () {
         tbody.append(tr);
 
 
-        //ImageContainer
-        //$("<span></span>").attr("id", "Image1").text("Image 1").appendTo("#MainContainerDiv");
-        //$("<span></span>").attr("id", "Image2").text("Image 2").appendTo("#MainContainerDiv");
-        //$("<span></span>").attr("id", "Image3").text("Image 3").appendTo("#MainContainerDiv");
-        //$("<span></span>").attr("id", "Image4").text("Image 4").appendTo("#MainContainerDiv");
-        //$("<span></span>").attr("id", "Image5").text("Image 5").appendTo("#MainContainerDiv");
+        $(".ImageClass").click(function () {
+            $.when($.ajax({
+                url: "/Home/ImageIsLiked",
+                type: "POST",
+                datatype: "json"
+            })).then(function (data) {
+                if (data == true) {
+                    $.toast({
+                        heading: "Success",
+                        text: "You liked the image",
+                        icon: "success",
+                        loader: true,
+                        loaderBg: "blue"
+                    });
+                }
+            });
+        });
     });
 
 });

@@ -25,6 +25,11 @@ namespace Module_1.Controllers
             return View();
         }
 
+        public bool ImageIsLiked()
+        {
+            return true;
+        }
+
         public IActionResult Privacy()
         {
             return View();
